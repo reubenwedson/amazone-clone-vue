@@ -1,10 +1,12 @@
 <template>
     <div class="header">
+        <router-link to="/">
         <img
                 class="header__logo"
                 src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
                 alt="header__logo"
         />
+        </router-link>
         <div class="header__search">
             <input class="header__searchInput" type="text" />
             <font-awesome-icon class="header__searchIcon" icon="search" />
