@@ -5,6 +5,13 @@
   </div>
 </template>
 
+<script>
+  import Header from "./components/navigation/Header";
+  export default {
+    components: {Header}
+  }
+</script>
+
 <style>
   * {
     margin: 0;
@@ -20,9 +27,3 @@
     -moz-osx-font-smoothing: grayscale;
   }
 </style>
-<script>
-  import Header from "./components/navigation/Header";
-  export default {
-    components: {Header}
-  }
-</script>

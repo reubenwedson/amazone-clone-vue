@@ -6,9 +6,7 @@
                 alt="header__logo"
         />
         <div class="header__search">
-            <label>
                 <input class="header__searchInput" type="text" />
-            </label>
         </div>
         <div class="header__nav">
             <div class="header__option">
