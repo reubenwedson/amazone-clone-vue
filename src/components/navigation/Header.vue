@@ -6,7 +6,8 @@
                 alt="header__logo"
         />
         <div class="header__search">
-                <input class="header__searchInput" type="text" />
+            <input class="header__searchInput" type="text" />
+            <font-awesome-icon class="header__searchIcon" icon="search" />
         </div>
         <div class="header__nav">
             <div class="header__option">
@@ -22,6 +23,7 @@
                 <span class="header__optionLineTwo">Prime</span>
             </div>
             <div class="header__optionBasket">
+                <font-awesome-icon icon="shopping-cart" />
                 <span class="header__optionLineTwo header__basketCount">0</span>
             </div>
         </div>
