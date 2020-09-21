@@ -4,7 +4,7 @@
     <div class="checkout">
       <div class="checkout__left">
         <img
-          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
+          src="../assets/checkout_banner.jpg"
           alt="ad_banner"
           class="checkout__ad"
         />

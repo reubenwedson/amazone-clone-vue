@@ -3,7 +3,7 @@
     <router-link to="/">
       <img
         class="login__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+        src="../assets/login_logo.webp"
         alt="amazon__logo"
       />
     </router-link>
