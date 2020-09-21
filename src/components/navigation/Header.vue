@@ -24,10 +24,12 @@
         <span class="header__optionLineOne">Your</span>
         <span class="header__optionLineTwo">Prime</span>
       </div>
-      <div class="header__optionBasket">
-        <font-awesome-icon icon="shopping-cart" />
-        <span class="header__optionLineTwo header__basketCount">0</span>
-      </div>
+      <router-link to="/checkout">
+        <div class="header__optionBasket">
+          <font-awesome-icon icon="shopping-cart" />
+          <span class="header__optionLineTwo header__basketCount">0</span>
+        </div>
+      </router-link>
     </div>
   </div>
 </template>
