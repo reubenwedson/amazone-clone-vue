@@ -12,10 +12,12 @@
       <font-awesome-icon class="header__searchIcon" icon="search" />
     </div>
     <div class="header__nav">
-      <div class="header__option">
-        <span class="header__optionLineOne">Hello Guest</span>
-        <span class="header__optionLineTwo">Sign In</span>
-      </div>
+      <router-link to="/login">
+        <div class="header__option">
+          <span class="header__optionLineOne">Hello Guest</span>
+          <span class="header__optionLineTwo">Sign In</span>
+        </div>
+      </router-link>
       <div class="header__option">
         <span class="header__optionLineOne">Returns</span>
         <span class="header__optionLineTwo">& Orders</span>
